@@ -1,0 +1,219 @@
+@media (max-width: 1024px) {
+  .slicknav_menu {
+    display: flex;
+  }
+  .list-links-nav {
+    display: none;
+  }
+  .nav-rite .concat {
+    display: none;
+  }
+  .content-left {
+    width: 70%;
+    color: var(--white);
+    padding: 15px;
+    transform: translate(80px, 200px);
+  }
+  .content-left .heading1 {
+    font-size: 2.8rem;
+    margin-bottom: 1.7rem;
+  }
+  .content-left .text-content {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .parent-section-1 .parent-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .parent-flex .item-right {
+    width: 100%;
+    /* border: solid; */
+  }
+  .parent-flex .item-left {
+    width: 100%;
+    /* border: solid; */
+  }
+  .parent-section-2 .parent-flex {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .item-left-sec2 {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  .item-right-sec2 {
+    width: 90%;
+  }
+  .parent-section-2 {
+    padding: 2rem 0;
+  }
+  .parent-section-3 .parent-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+  }
+  .parent-section-3 .parent-flex .item-sec3 {
+    width: 400px;
+    background-color: var(--lightgray);
+    margin-bottom: 20px;
+  }
+  .parent-section-4 .parent-flex {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .parent-section-4 .item-left-sec4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .parent-section-4 .item-right-sec4 {
+    width: 100%;
+    /* border: solid; */
+  }
+  .parant-items-5 {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .parent-flex .item-sec5 {
+    text-align: center;
+    width: 84%;
+    margin-bottom: 2rem;
+    border: solid #fff;
+    padding: 20px;
+  }
+  .parent-section-6 .slick-track6 {
+    display: flex;
+    flex-direction: column;
+  }
+  .slick-track6 .single-blogs6 {
+    width: 80%;
+    margin-bottom: 3.3rem;
+  }
+  .footer-area .parent-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .footer-wrapper .footer-area {
+    width: 90%;
+    margin: auto;
+  }
+  .footer-padding .item-foot-7 {
+    flex-basis: 350px;
+  }
+}
+
+@media (max-width: 730px) {
+  header {
+    height: 730px;
+    background-size: cover;
+  }
+  .nav-rite .btn-header {
+    padding: 14px;
+    font-size: 0.9rem;
+  }
+  .content-left .heading1 {
+    font-size: 1.7rem;
+    margin-bottom: 1.7rem;
+  }
+  .about-caption2 .section-tittle2 h2 {
+    font-size: 2rem;
+     }
+}
+
+@media (max-width: 500px) {
+  .nav-rite .btn-header {
+    padding: 9px;
+    font-size: 12px;
+  }
+  .content-left .heading1 {
+    font-size: 1.7rem;
+    margin-bottom: 1.7rem;
+  }
+  .nav-parent a {
+    color: var(--white);
+    width: 200px;
+  }
+  .nav-parent a img {
+    color: var(--white);
+    width: 80%;
+  }
+  .content-left {
+    width: 95%;
+    color: var(--white);
+    padding: 15px;
+    transform: translate(10px, 100px);
+  }
+
+  header {
+    height: 425px;
+    background-size: cover;
+  }
+  .content-left .heading1 {
+    font-size: 1.3rem;
+    margin-bottom: 1.7rem;
+  }
+  .item-right .prt-sec1-text {
+    padding: 2rem 0;
+  }
+  .parent-section-1 {
+    width: 100%;
+    background-color: var(--lightPink);
+    padding: 4rem 1rem;
+  }
+  .prt-btns-sec1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .prt-btns-sec1 .btn-left {
+    margin-bottom: 2rem;
+  }
+  .parent-section-3 .parent-flex .item-sec3 {
+    width: 300px;
+    background-color: var(--lightgray);
+    margin-bottom: 20px;
+  }
+  .class-day3 .btn_03 {
+    text-transform: capitalize;
+    padding: 17px 1.2rem;
+    border: 2px solid var(--orenge);
+    background-color: var(--orenge);
+    font-weight: 600;
+    transition: all 0.2s linear;
+  }
+  .properties-footer3 .class-day3 span {
+    color: var(--lightgreen);
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .parent-flex .item-sec5 {
+    text-align: center;
+    width: 95%;
+  }
+  .sec5 .parent-section-5 .parent-flex {
+    width: 100%;
+    margin: auto;
+  }
+  .sec5 .parent-section-5 {
+    width: 100%;
+    padding: 5rem 1rem;
+  }
+  .slick-track6 .single-blogs6 {
+    width: 95%;
+    margin-bottom: 3.3rem;
+  }
+}
